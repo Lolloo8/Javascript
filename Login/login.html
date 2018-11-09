@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+  <!--Foglio di stile -->
+  <link rel="stylesheet" href="style.css">
+  <!--Normalize css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+  <!--font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500" rel="stylesheet">
+
+  <link rel="stylesheet" href="fontello/css/fontello.css">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="body">
+  <div class="loginBox">
+    <img src="icona.png" alt="Avatar" class="avatar">
+    <div class="top">
+      <h1>Login</h1>
+      <img class="img"src="zucca.gif" alt="zucca">
+    </div>
+    <form  action="submit.html" method="post" onsubmit="return validate()";>
+      <p>Username</p>
+      <input type="text" name="" id="nome" placeholder="Inserisci username" required>
+
+      <p>Password</p>
+      <input type="password" id="password" placeholder="Inserisci password" required>
+      <input type="submit" id="button" value="Login"></>
+      <i class="icon-right"></i>
+      <a href="#">Hai perso la tua password?</a><br>
+      <i class="icon-right"></i>
+      <a href="#">Non hai un account?</a>
+    </form>
+  </div>
+  <footer>
+    <div id="data" name="data"></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
